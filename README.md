@@ -21,15 +21,15 @@ A modular, containerized back-end application developed for motorsport telemetry
 
 ### Local Setup
 1. Clone the repository and navigate to the folder:
-   git clone https://github.com/bovoSfasciaCarrozze/Project-ApexFB.git
+   git clone https://github.com/bovoo77/Project-ApexFB.git
    cd Project-ApexFB
-2. Create and activate a virtual environment, then install dependencies:
+3. Create and activate a virtual environment, then install dependencies:
    python -m venv venv
    source venv/Scripts/activate
    pip install -r requirements.txt
-3. Run the server:
+4. Run the server:
    uvicorn main_api:app --reload
-4. Access documentation at http://127.0.0.1:8000/docs
+5. Access documentation at http://127.0.0.1:8000/docs
 
 ### Docker Setup
 1. Build the image:
